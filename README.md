@@ -1,0 +1,1 @@
+Right click on connection and upload the bootstap stuff you downloaded, ie the css fonts and js olders
