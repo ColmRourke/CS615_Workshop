@@ -13,7 +13,7 @@ if(isset($_POST['submit'])){
 //for the data.xml file we created in the xml folder
   $xml = simplexml_load_file("../xml/data.xml") or die('Eror: Cannot find the data storage');
   //add node ie <feedback> tags in the xml file
-  $feedback = $xml->addChild('feednack');
+  $feedback = $xml->addChild('feedback');
   
   //put data in feedback node
   $feedback->addChild('module', $module);
